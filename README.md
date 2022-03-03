@@ -28,3 +28,17 @@ function handleTitleClick() {
 
 title.addEventListenr("click", handleTitleClick)
 ```
+
+### 3.8 CSS in Javascript
+
+* [__toggle()__](https://developer.mozilla.org/en-US/docs/Web/API/DOMTokenList/toggle) : 클래스가 리스트에 존재하면 remove(), 아니면 add()
+
+``` javascript
+const h1 = documents.querySelector("div:hello:first-child h1")
+
+function handleTitleClick() {
+    h1.classList.toggle("clicked")
+}
+
+title.addEventListenr("click", handleTitleClick)
+```
