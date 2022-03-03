@@ -42,3 +42,7 @@ function handleTitleClick() {
 
 title.addEventListenr("click", handleTitleClick)
 ```
+
+> 💡 style을 이용하여 CSS 속성을 바로 건드리는 대신 Javascript는 class를 활용 ★
+
+
