@@ -5,6 +5,7 @@ const greeting = document.querySelector("#greeting")
 function onLoginButtonClick(event) {
     event.preventDefault()
     const username = loginInput.value
+    localStorage.setItem("username", username)
     loginForm.classList.add("hidden")
     greeting.innerText = `Hello, ${username}`
     greeting.classList.remove("hidden")
