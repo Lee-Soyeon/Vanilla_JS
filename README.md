@@ -3,6 +3,10 @@
 
 * 일시 : 2022년 2월 24일 ~ 2022년 3월 일
 * 링크 : https://nomadcoders.co/javascript-for-beginners/lobby
+* 할 일
+    [ ] 화면 설계서 작성
+    [ ] CSS 작업
+    [ ] API 추가
 
 ## 강의 노트
 ### 3.2 Searching For Elements
